@@ -1,17 +1,30 @@
 import { Spin as Hamburger } from 'hamburger-react'
 import { useState } from 'react';
+import { CSSTransition } from 'react-transition-group';
+
+import './header.scss'
 
 function Header() {
 
     const [isOpen, setOpen] = useState(false)
 
+    const toggleMenu = () => {
+        setOpen(!isOpen);
+      };
+
     return (
-<header> 
-    <nav>
-        <div>
-        <Hamburger toggled={isOpen} toggle={setOpen} />
+<header className='header'> 
+    <nav className='burger-menu'>
+        <div className='hamburger-bars'>
+        <Hamburger size={30} onClick={toggleMenu} toggled={isOpen} toggle={setOpen} />
         </div>
-        <div>
+        <CSSTransition
+        in={isOpen}
+        timeout={300}
+        classNames="menu"
+        unmountOnExit
+      >
+        <div className='menu'>
             <ul>
                 <li>
                     <a href='/'>Strona główna</a>
@@ -33,9 +46,10 @@ function Header() {
                 </li>
             </ul>
         </div>
+        </CSSTransition>
     </nav>
-    
 </header>
+
     );
   }
   

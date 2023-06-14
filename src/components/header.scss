@@ -1,0 +1,48 @@
+.header {
+  height: 55px;
+  position: relative;
+  .hamburger-bars {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    padding: 15px 10px 0;
+    z-index: 1;
+  }
+  .menu {
+    position: absolute;
+    width: 60%;
+    height: 100vh;
+    top: 0;
+    background-color: rgba(28, 28, 28, 1);
+    ul {
+      margin-top: 100px;
+      li {
+        margin: 35px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.menu-enter {
+  left: -225px;
+}
+
+.menu-enter-active {
+  left: 0;
+  transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-exit {
+  left: 0;
+}
+
+.menu-exit-active {
+  left: -225px;
+  transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-exit-done {
+  left: -225px;
+}
+
