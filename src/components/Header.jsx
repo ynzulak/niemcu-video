@@ -1,3 +1,4 @@
+import { Link, BrowserRouter } from 'react-router-dom';
 import { Spin as Hamburger } from 'hamburger-react'
 import { useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
@@ -13,6 +14,7 @@ function Header() {
       };
 
     return (
+        <BrowserRouter>
 <header className='header'> 
     <nav className='burger-menu'>
         <div className='hamburger-bars'>
@@ -27,29 +29,29 @@ function Header() {
         <div className='menu'>
             <ul>
                 <li>
-                    <a href='/'>Strona główna</a>
+                    <Link to='/'>Strona główna</Link>
                 </li>
                 <li>
-                    <a href='/zdjecia'>Zdjęcia</a>
+                    <Link to='/zdjecia'>Zdjęcia</Link>
                 </li>
                 <li>
-                    <a href='/filmy'>Filmy</a>
+                    <Link to='/filmy'>Filmy</Link>
                 </li>
                 <li>
-                    <a href='/lektor'>Lektor</a>
+                    <Link to='/lektor'>Lektor</Link>
                 </li>
                 <li>
-                    <a href='/grafika'>Grafika</a>
+                    <Link to='/grafika'>Grafika</Link>
                 </li>
                 <li>
-                    <a href='/kontakt'>Kontakt</a>
+                    <Link to='/kontakt'>Kontakt</Link>
                 </li>
             </ul>
         </div>
         </CSSTransition>
     </nav>
 </header>
-
+</BrowserRouter>
     );
   }
   
