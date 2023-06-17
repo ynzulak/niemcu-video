@@ -1,11 +1,15 @@
 .header {
   height: 55px;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: transparent;
   .hamburger-bars {
     position: absolute;
     display: flex;
+    justify-content: center;
     text-align: center;
-    padding: 15px 10px 0;
+    padding: 15px 10px 15px;
     z-index: 1;
   }
   .menu {
@@ -45,4 +49,3 @@
 .menu-exit-done {
   left: -225px;
 }
-

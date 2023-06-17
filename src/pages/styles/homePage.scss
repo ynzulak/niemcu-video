@@ -1,0 +1,28 @@
+.main {
+  padding: 85px 13px;
+  .title-with-photo {
+    display: flex;
+    justify-content: center;
+    .title {
+      .welcome-panel {
+        padding: 22px 10px 14px;
+        .heading-footer {
+          margin-top: 20px;
+        }
+      }
+
+      .welcome-img {
+        height: 350px;
+        width: 350px;
+        border: 1px solid white;
+      }
+    }
+  }
+
+  .description {
+    padding-top: 80px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.38;
+  }
+}
