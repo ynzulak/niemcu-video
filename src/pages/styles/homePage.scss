@@ -14,15 +14,15 @@
       .welcome-img {
         height: 350px;
         width: 350px;
-        border: 1px solid white;
+        background-color: grey;
       }
     }
   }
 
   .description {
-    padding-top: 80px;
+    padding: 80px 10px 0;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.38;
+    line-height: 1.4;
   }
 }

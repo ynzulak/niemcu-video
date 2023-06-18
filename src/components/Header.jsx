@@ -1,7 +1,7 @@
 import { Spin as Hamburger } from 'hamburger-react'
 import { useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
-import {  Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import './header.scss'
 
