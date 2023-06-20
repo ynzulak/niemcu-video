@@ -1,4 +1,5 @@
 import './styles/homePage.scss'
+import main from '../files/images/homePage/main.jpg'
 
 function HomePage() {
     return (
@@ -15,7 +16,7 @@ function HomePage() {
                     </div>
                     <div className="welcome-photo">
                         <div className="welcome-img">
-
+<img src={main} alt='Mnpm install styled-componentsain picture of the Michal Niemiec - Photographer'/>
                         </div>
                     </div>
                 </div>

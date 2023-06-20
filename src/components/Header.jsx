@@ -2,6 +2,7 @@ import { Spin as Hamburger } from 'hamburger-react'
 import { useState } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import { Link } from 'react-router-dom';
+import logoTitle from '../files/images/graphicsPage/logo.png'
 
 import './header.scss'
 
@@ -17,6 +18,7 @@ function Header() {
 
 <header className='header'> 
     <nav className='burger-menu'>
+        <img src={logoTitle} alt='Logo on the top of the site'/>
         <div className='hamburger-bars'>
         <Hamburger size={30} onClick={toggleMenu} toggled={isOpen} toggle={setOpen} />
         </div>
