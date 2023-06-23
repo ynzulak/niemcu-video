@@ -16,7 +16,7 @@ function HomePage() {
                     </div>
                     <div className="welcome-photo">
                         <div className="welcome-img">
-<img src={main} alt='Mnpm install styled-componentsain picture of the Michal Niemiec - Photographer'/>
+                            <img src={main} alt='Michal Niemiec - Fotograf'/>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,12 @@
 
 function GraphicsPage() {
     return (
-        <div>GraphocsPage!</div>
+        <div className="main">
+            <div className='title-with-description'>
+                <div className='title'></div>
+                <div className='description'></div>
+            </div>
+        </div>
     )
 }
 
