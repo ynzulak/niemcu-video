@@ -28,7 +28,7 @@ function PhotosPage() {
             <hr></hr>
             <Slider className='image-slider' {...settings}>
                 {images.map((slide, index) => (
-                    <div key={index}>
+                    <div className='slider-container' key={index}>
                         <img src={slide.image} alt={slide.title} />
                     </div>
                 ))}
