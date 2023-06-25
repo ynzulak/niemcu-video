@@ -10,16 +10,16 @@ import mieszkanie9 from '../../files/images/photosPage/Mieszkanie Robotnicza/mie
 import mieszkanie10 from '../../files/images/photosPage/Mieszkanie Robotnicza/mieszkanie10.jpg'
 
 const imagesSlider4 = [
-    { image: mieszkanie1, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: mieszkanie2, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: mieszkanie3, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: mieszkanie4, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: mieszkanie5, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: mieszkanie6, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: mieszkanie7, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: mieszkanie8, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: mieszkanie9, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: mieszkanie10, title: 'Aleksander Korecki gra na saksofonie'},  
+    { image: mieszkanie1, title: 'Salon z kanapą'},
+    { image: mieszkanie2, title: 'Salon z meblami'},
+    { image: mieszkanie3, title: 'Kuchnia'},
+    { image: mieszkanie4, title: 'Przedpokój'},
+    { image: mieszkanie5, title: 'Łazienka z prysznicem'},
+    { image: mieszkanie6, title: 'Salon z kanapą'},
+    { image: mieszkanie7, title: 'Kuchnia'},
+    { image: mieszkanie8, title: 'Sypialnia z łóżkiem'},
+    { image: mieszkanie9, title: 'Przedpokój'},
+    { image: mieszkanie10, title: 'Łazienka '},  
   ];
   
   export default imagesSlider4;

@@ -10,16 +10,16 @@ import slajd2_12 from '../../files/images/photosPage/slajd2_12.jpg'
 import slajd2_13 from '../../files/images/photosPage/slajd2_13.jpg'
 
 const imagesSlider2 = [
-    { image: slajd2_2, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: slajd2_3, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: slajd2_4, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: slajd2_6, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: slajd2_8, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: slajd2_9, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: slajd2_10, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: slajd2_11, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: slajd2_12, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: slajd2_13, title: 'Aleksander Korecki gra na saksofonie'},
+    { image: slajd2_2, title: 'Helikopter'},
+    { image: slajd2_3, title: 'Kościół Przemienienia Pańskiego'},
+    { image: slajd2_4, title: 'Znaki na ścianie'},
+    { image: slajd2_6, title: 'Strumyk w lesie'},
+    { image: slajd2_8, title: 'Plaża'},
+    { image: slajd2_9, title: 'Alejka'},
+    { image: slajd2_10, title: 'Kościół'},
+    { image: slajd2_11, title: 'Ulica nocą'},
+    { image: slajd2_12, title: 'Motyl na kwiatku'},
+    { image: slajd2_13, title: 'Rzeczka w lesie'},
   ];
   
   export default imagesSlider2;

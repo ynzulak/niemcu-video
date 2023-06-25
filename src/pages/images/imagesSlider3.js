@@ -5,11 +5,11 @@ import samochody4 from '../../files/images/photosPage/samochody4.jpg'
 import samochody5 from '../../files/images/photosPage/samochody5.jpg'
 
 const imagesSlider3 = [
-    { image: samochody1, title: 'Aleksander Korecki gra na saksofonie'},
-    { image: samochody2, title: 'Piotr Łojek gra na sentyzatorze'},
-    { image: samochody3, title: 'Kuba Stankiewicz śpiewa'},
-    { image: samochody4, title: 'Muzyk trzyma tamburyno'},
-    { image: samochody5, title: 'Piotr Łojek gra na sentyzatorze'},
+    { image: samochody1, title: 'Ford Sierra Cosworth'},
+    { image: samochody2, title: 'Samochód Rajdowy'},
+    { image: samochody3, title: 'Niebieski Monstertruck'},
+    { image: samochody4, title: 'Niebieski Monstertruck'},
+    { image: samochody5, title: 'Fiat 125p'},
   ];
   
   export default imagesSlider3;
