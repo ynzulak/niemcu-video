@@ -1,0 +1,17 @@
+.main-page {
+  .lector-container {
+    .audio-files{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 30px 0;
+      .audio{
+        padding: 10px 0;
+      }
+    }
+    .react-player {
+      margin: 30px auto;
+    }
+  }
+}
