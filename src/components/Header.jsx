@@ -18,7 +18,7 @@ function Header() {
 
         <header className='header'>
             <nav className='burger-menu'>
-                <img src={logoTitle} alt='Logo on the top of the site' />
+                <Link to='/'><img src={logoTitle} alt='Logo on the top of the site' /></Link>
                 <div className='hamburger-bars'>
                     <Hamburger size={30} onClick={toggleMenu} toggled={isOpen} toggle={setOpen} />
                 </div>
@@ -52,28 +52,28 @@ function Header() {
                     </div>
                 </CSSTransition>
                 <div className='menu-big'>
-                        <ul>
-                            <li>
-                                <Link to='/'>Strona główna</Link>
-                            </li>
-                            <li>
-                                <Link to='/zdjecia'>Zdjęcia</Link>
-                            </li>
-                            <li>
-                                <Link to='/filmy'>Filmy</Link>
-                            </li>
-                            <li>
-                                <Link to='/lektor'>Lektor</Link>
-                            </li>
-                            <li>
-                                <Link to='/grafika'>Grafika</Link>
-                            </li>
-                            <li>
-                                <Link to='/kontakt'>Kontakt</Link>
-                            </li>
-                        </ul>
-                    </div>
-                    
+                    <ul>
+                        <li>
+                            <Link to='/'>Strona główna</Link>
+                        </li>
+                        <li>
+                            <Link to='/zdjecia'>Zdjęcia</Link>
+                        </li>
+                        <li>
+                            <Link to='/filmy'>Filmy</Link>
+                        </li>
+                        <li>
+                            <Link to='/lektor'>Lektor</Link>
+                        </li>
+                        <li>
+                            <Link to='/grafika'>Grafika</Link>
+                        </li>
+                        <li>
+                            <Link to='/kontakt'>Kontakt</Link>
+                        </li>
+                    </ul>
+                </div>
+
             </nav>
         </header>
 
