@@ -12,6 +12,7 @@ import images6 from './images/imagesSlider6';
 import images7 from './images/imagesSlider7';
 import images8 from './images/imagesSlider8';
 import './styles/mainPagesStyles.scss'
+import './styles/photosPage.scss'
 
 function PhotosPage() {
     const settings = {
