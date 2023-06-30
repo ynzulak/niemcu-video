@@ -21,6 +21,7 @@ function PhotosPage() {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+
     };
 
     return (
@@ -34,64 +35,64 @@ function PhotosPage() {
                 </div>
             </div>
             <hr></hr>
-            <Slider className='image-slider' {...settings}>
-                {images1.map((slide, index) => (
-                    <div className='slider-container images-big' key={index}>
-                        <img src={slide.image} alt={slide.title} />
-                    </div>
-                ))}
-            </Slider>
-            <Slider className='image-slider' {...settings}>
-                {images2.map((slide, index) => (
-                    <div className='slider-container images-big' key={index}>
-                        <img src={slide.image} alt={slide.title} />
-                    </div>
-                ))}
-            </Slider>
-            <Slider className='image-slider' {...settings}>
-                {images3.map((slide, index) => (
-                    <div className='slider-container images-medium' key={index}>
-                        <img src={slide.image} alt={slide.title} />
-                    </div>
-                ))}
-            </Slider>
-            <Slider className='image-slider' {...settings}>
-                {images4.map((slide, index) => (
-                    <div className='slider-container images-medium' key={index}>
-                        <img src={slide.image} alt={slide.title} />
-                    </div>
-                ))}
-            </Slider>
-            <Slider className='image-slider' {...settings}>
-                {images5.map((slide, index) => (
-                    <div className='slider-container images-medium' key={index}>
-                        <img src={slide.image} alt={slide.title} />
-                    </div>
-                ))}
-            </Slider>
-            <Slider className='image-slider' {...settings}>
-                {images6.map((slide, index) => (
-                    <div className='slider-container images-medium' key={index}>
-                        <img src={slide.image} alt={slide.title} />
-                    </div>
-                ))}
-            </Slider>
-            <Slider className='image-slider' {...settings}>
-                {images7.map((slide, index) => (
-                    <div className='slider-container images-medium' key={index}>
-                        <img src={slide.image} alt={slide.title} />
-                    </div>
-                ))}
-            </Slider>
-            <Slider className='image-slider' {...settings}>
-                {images8.map((slide, index) => (
-                    <div className='slider-container images-medium' key={index}>
-                        <img src={slide.image} alt={slide.title} />
-                    </div>
-                ))}
-            </Slider>
-
-        </div>
+           
+                <Slider className='image-slider' {...settings}>
+                    {images1.map((slide, index) => (
+                        <div className='slider-container images-big' key={index}>
+                            <img src={slide.image} alt={slide.title} />
+                        </div>
+                    ))}
+                </Slider>
+                <Slider className='image-slider' {...settings}>
+                    {images2.map((slide, index) => (
+                        <div className='slider-container images-big' key={index}>
+                            <img src={slide.image} alt={slide.title} />
+                        </div>
+                    ))}
+                </Slider>
+                <Slider className='image-slider' {...settings}>
+                    {images3.map((slide, index) => (
+                        <div className='slider-container images-medium' key={index}>
+                            <img src={slide.image} alt={slide.title} />
+                        </div>
+                    ))}
+                </Slider>
+                <Slider className='image-slider' {...settings}>
+                    {images4.map((slide, index) => (
+                        <div className='slider-container images-medium' key={index}>
+                            <img src={slide.image} alt={slide.title} />
+                        </div>
+                    ))}
+                </Slider>
+                <Slider className='image-slider' {...settings}>
+                    {images5.map((slide, index) => (
+                        <div className='slider-container images-medium' key={index}>
+                            <img src={slide.image} alt={slide.title} />
+                        </div>
+                    ))}
+                </Slider>
+                <Slider className='image-slider' {...settings}>
+                    {images6.map((slide, index) => (
+                        <div className='slider-container images-medium' key={index}>
+                            <img src={slide.image} alt={slide.title} />
+                        </div>
+                    ))}
+                </Slider>
+                <Slider className='image-slider' {...settings}>
+                    {images7.map((slide, index) => (
+                        <div className='slider-container images-medium' key={index}>
+                            <img src={slide.image} alt={slide.title} />
+                        </div>
+                    ))}
+                </Slider>
+                <Slider className='image-slider' {...settings}>
+                    {images8.map((slide, index) => (
+                        <div className='slider-container images-medium' key={index}>
+                            <img src={slide.image} alt={slide.title} />
+                        </div>
+                    ))}
+                </Slider>
+            </div>
     )
 }
 
