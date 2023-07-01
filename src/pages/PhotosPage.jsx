@@ -35,7 +35,7 @@ function PhotosPage() {
                 </div>
             </div>
             <hr></hr>
-           
+            <div className='sliders'>
                 <Slider className='image-slider' {...settings}>
                     {images1.map((slide, index) => (
                         <div className='slider-container images-big' key={index}>
@@ -93,6 +93,7 @@ function PhotosPage() {
                     ))}
                 </Slider>
             </div>
+        </div>
     )
 }
 
