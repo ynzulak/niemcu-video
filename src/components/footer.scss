@@ -39,8 +39,6 @@
 
 @media screen and (min-width: 1000px) {
   .footer {
-    position: absolute;
-    bottom: 0;
     .menu ul {
       display: flex;
       justify-content: center;
@@ -68,4 +66,14 @@
       }
     }
   }
+}
+
+@media screen and (min-width: 645px) {
+.footer {
+  position: absolute;
+    bottom: 0;
+  .menu ul {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+}
 }

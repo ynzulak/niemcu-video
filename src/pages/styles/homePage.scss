@@ -41,42 +41,44 @@
   }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 560px) {
   .main {
     width: 500px;
-  }
-}
-
-
-@media screen and (min-width: 870px) {
-  .main {
-    display: flex;
-    width: 100vw;
-    margin: -5px auto;
-    overflow: overlay;
-    overflow-x: hidden;
     .description {
-      padding: 25px 100px;
-      display: flex;
-      align-items: center;
       p {
-        font-size: 20px;
-        padding: 25px 25px;
         -webkit-box-shadow: 54px 55px 0px 0px rgba(28, 28, 28, 1);
         -moz-box-shadow: 54px 55px 0px 0px rgba(28, 28, 28, 1);
         box-shadow: 54px 55px 0px 0px rgba(28, 28, 28, 1);
       }
     }
     .title-with-photo {
-      font-size: 20px;
-      margin: 50px 0;
-      padding: 0px 70px 30px;
       background-color: grey;
       border-radius: 60px 0;
       -webkit-box-shadow: 54px 55px 0px 0px rgba(28, 28, 28, 1);
       -moz-box-shadow: 54px 55px 0px 0px rgba(28, 28, 28, 1);
       box-shadow: 54px 55px 0px 0px rgba(28, 28, 28, 1);
       text-shadow: 7px 7px 10px rgba(66, 68, 90, 1);
+  }
+}
+}
+
+@media screen and (min-width: 870px) {
+  .main {
+    display: flex;
+    width: 100vw;
+    margin: -5px auto;
+    .description {
+      padding: 25px 100px;
+      display: flex;
+      align-items: center;
+      p {
+        font-size: 20px;
+      }
+    }
+    .title-with-photo {
+      font-size: 20px;
+      margin: 50px 0;
+      padding: 0px 70px 30px;
       .title {
         .welcome-img {
           height: 350px;
@@ -92,39 +94,10 @@
 
 @media screen and (min-width: 1220px) {
   .main {
-    display: flex;
     width: 1280px;
-    margin: -5px auto;
     .description {
-      padding: 25px 100px;
-      display: flex;
-      align-items: center;
       p {
-        font-size: 20px;
         padding: 25px 100px;
-        -webkit-box-shadow: 54px 55px 0px 0px rgba(28, 28, 28, 1);
-        -moz-box-shadow: 54px 55px 0px 0px rgba(28, 28, 28, 1);
-        box-shadow: 54px 55px 0px 0px rgba(28, 28, 28, 1);
-      }
-    }
-    .title-with-photo {
-      font-size: 20px;
-      margin: 50px 0;
-      padding: 0px 70px 30px;
-      background-color: grey;
-      border-radius: 60px 0;
-      -webkit-box-shadow: 54px 55px 0px 0px rgba(28, 28, 28, 1);
-      -moz-box-shadow: 54px 55px 0px 0px rgba(28, 28, 28, 1);
-      box-shadow: 54px 55px 0px 0px rgba(28, 28, 28, 1);
-      text-shadow: 7px 7px 10px rgba(66, 68, 90, 1);
-      .title {
-        .welcome-img {
-          height: 350px;
-          width: 350px;
-          img {
-            border-radius: 0px;
-          }
-        }
       }
     }
   }
