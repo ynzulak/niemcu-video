@@ -14,7 +14,7 @@ function MoviesPage() {
                 </div>
             </div>
             <hr></hr>
-            <div className='container'>
+            <div className='movies'>
                 <div className='videos'>
                     <div className='video-player'>
                         <ReactPlayer
