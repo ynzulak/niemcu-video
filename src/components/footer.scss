@@ -1,4 +1,6 @@
 .footer {
+  position: absolute;
+  bottom: 0;
   width: 100%;
   background-color: rgba(28, 28, 28, 1);
   height: 175px;
@@ -69,11 +71,9 @@
 }
 
 @media screen and (min-width: 645px) {
-.footer {
-  position: absolute;
-    bottom: 0;
-  .menu ul {
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  .footer {
+    .menu ul {
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
   }
-}
 }
