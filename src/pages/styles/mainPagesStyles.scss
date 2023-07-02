@@ -1,4 +1,7 @@
 .main-page {
+  hr {
+    margin: 0 25px
+  }
   margin: 0 auto;
   padding: 85px 0px 175px;
   .title-with-description {
@@ -21,6 +24,7 @@
 
 @media screen and (min-width: 1000px) {
   .main-page {
+
     padding: 125px 250px;
 
     .title-with-description {

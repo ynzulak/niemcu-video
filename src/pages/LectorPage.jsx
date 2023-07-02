@@ -20,56 +20,64 @@ function LectorPage() {
             <hr></hr>
             <div className='lector-container'>
                 <div className='audio-files'>
-                    <div className='audio'>
-                        <audio controls>
-                            <source src={adsPolish} type="audio/mpeg" />
-                            Twoja przeglądarka nie obsługuje elementu audio.
-                        </audio>
+                    <div className="first-row">
+                        <div className='audio'>
+                            <audio controls>
+                                <source src={adsPolish} type="audio/mpeg" />
+                                Twoja przeglądarka nie obsługuje elementu audio.
+                            </audio>
+                        </div>
+                        <div className='audio'>
+                            <audio controls>
+                                <source src={interviewCorect} type="audio/mpeg" />
+                                Twoja przeglądarka nie obsługuje elementu audio.
+                            </audio>
+                        </div>
                     </div>
-                    <div className='audio'>
-                        <audio controls>
-                            <source src={interviewCorect} type="audio/mpeg" />
-                            Twoja przeglądarka nie obsługuje elementu audio.
-                        </audio>
-                    </div>
-                    <div className='audio'>
-                        <audio controls>
-                            <source src={michalNiemiec} type="audio/mpeg" />
-                            Twoja przeglądarka nie obsługuje elementu audio.
-                        </audio>
+                    <div className="second-row">
+                        <div className='audio'>
+                            <audio controls>
+                                <source src={michalNiemiec} type="audio/mpeg" />
+                                Twoja przeglądarka nie obsługuje elementu audio.
+                            </audio>
+                        </div>
                     </div>
                 </div>
                 <div className='videos'>
-                    <div className='video-player'>
-                        <ReactPlayer
-                            className='react-player'
-                            url="https://www.youtube.com/watch?v=PgveCWQ9NcI"
-                            controls={true}
-                            width='100%'
-                            height='100%'
-                             
-                            fallback={<div>Ładowanie</div>}
-                        />
+                    <div className="first-row">
+                        <div className='video-player'>
+                            <ReactPlayer
+                                className='react-player'
+                                url="https://www.youtube.com/watch?v=PgveCWQ9NcI"
+                                controls={true}
+                                width='100%'
+                                height='100%'
+
+                                fallback={<div>Ładowanie</div>}
+                            />
+                        </div>
+                        <div className='video-player'>
+                            <ReactPlayer
+                                className='react-player'
+                                url="https://www.youtube.com/watch?v=yOV6SDDUJOA"
+                                controls={true}
+                                width='100%'
+                                height='100%'
+                                fallback={<div>Ładowanie</div>}
+                            />
+                        </div>
                     </div>
-                    <div className='video-player'>
-                        <ReactPlayer
-                            className='react-player'
-                            url="https://www.youtube.com/watch?v=yOV6SDDUJOA"
-                            controls={true}
-                            width='100%'
-                            height='100%'
-                            fallback={<div>Ładowanie</div>}
-                        />
-                    </div>
-                    <div className='video-player'>
-                        <ReactPlayer
-                            className='react-player'
-                            url="https://www.youtube.com/watch?v=KZ7bG8vXQZY"
-                            controls={true}
-                            width='100%'
-                            height='100%'
-                            fallback={<div>Ładowanie</div>}
-                        />
+                    <div className="second-row">
+                        <div className='video-player'>
+                            <ReactPlayer
+                                className='react-player'
+                                url="https://www.youtube.com/watch?v=KZ7bG8vXQZY"
+                                controls={true}
+                                width='100%'
+                                height='100%'
+                                fallback={<div>Ładowanie</div>}
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
