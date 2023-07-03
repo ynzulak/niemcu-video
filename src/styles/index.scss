@@ -8,9 +8,6 @@
   outline: none;
   margin: 0;
   padding: 0;
-}
-
-* {
   scrollbar-width: thin;
   scrollbar-color: #1c1c1c;
 }
@@ -25,6 +22,9 @@
   border: 3px solid rgb(20, 20, 20);
 }
 
+::-webkit-scrollbar-track {
+  background-image: linear-gradient(to bottom, #1c1c1c, #202020, #242424, #282828, #2c2c2c);
+}
 
 body {
   position: relative;

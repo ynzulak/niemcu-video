@@ -14,7 +14,7 @@ function ContactPage() {
                 </div>
             </div>
             <hr></hr>
-            <div className='contact-form'>
+            <div className='contact-form' data-aos="zoom-in">
                 <Contact />
             </div>
         </div>

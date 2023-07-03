@@ -1,9 +1,10 @@
-import {Route, Router, Switch } from 'react-router-dom';
+import { Route, Router, Switch } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
-
 
 import Header from './Header';
 import Footer from './Footer';
+
+import ScrollToTop from './ScrollToTop';
 
 import HomePage from '../pages/HomePage';
 import ContactPage from '../pages/ContactPage';
@@ -18,22 +19,24 @@ const history = createBrowserHistory();
 
 function MainContent() {
 
-    return (
+  return (
 
-<Router history={history} >
-  <Header />
-    <Switch>
-      <Route exact path="/" component={HomePage} />
-      <Route path="/zdjecia" component={PhotosPage} />
-      <Route path="/filmy" component={MoviesPage} />
-      <Route path="/lektor" component={LectorPage} />
-      <Route path="/grafika" component={GraphicsPage} />
-      <Route path="/kontakt" component={ContactPage} />
-    </Switch>
-    <Footer/>
-</Router>
+    <Router history={history} >
+      <Header />
+      <ScrollToTop />
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/zdjecia" component={PhotosPage} />
+        <Route path="/filmy" component={MoviesPage} />
+        <Route path="/lektor" component={LectorPage} />
+        <Route path="/grafika" component={GraphicsPage} />
+        <Route path="/kontakt" component={ContactPage} />
 
-      );
+      </Switch>
+      <Footer />
+    </Router>
+
+  );
 
 }
 

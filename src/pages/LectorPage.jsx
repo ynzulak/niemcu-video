@@ -21,13 +21,13 @@ function LectorPage() {
             <div className='lector-container'>
                 <div className='audio-files'>
                     <div className="first-row">
-                        <div className='audio'>
+                        <div className='audio' data-aos="fade-right">
                             <audio controls>
                                 <source src={adsPolish} type="audio/mpeg" />
                                 Twoja przeglądarka nie obsługuje elementu audio.
                             </audio>
                         </div>
-                        <div className='audio'>
+                        <div className='audio' data-aos="fade-left">
                             <audio controls>
                                 <source src={interviewCorect} type="audio/mpeg" />
                                 Twoja przeglądarka nie obsługuje elementu audio.
@@ -35,7 +35,7 @@ function LectorPage() {
                         </div>
                     </div>
                     <div className="second-row">
-                        <div className='audio'>
+                        <div className='audio' data-aos="fade-up">
                             <audio controls>
                                 <source src={michalNiemiec} type="audio/mpeg" />
                                 Twoja przeglądarka nie obsługuje elementu audio.
@@ -45,7 +45,7 @@ function LectorPage() {
                 </div>
                 <div className='videos'>
                     <div className="first-row">
-                        <div className='video-player'>
+                        <div className='video-player' data-aos="flip-left" data-aos-delay="200">
                             <ReactPlayer
                                 className='react-player'
                                 url="https://www.youtube.com/watch?v=PgveCWQ9NcI"
@@ -56,7 +56,7 @@ function LectorPage() {
                                 fallback={<div>Ładowanie</div>}
                             />
                         </div>
-                        <div className='video-player'>
+                        <div className='video-player' data-aos="flip-left" data-aos-delay="500">
                             <ReactPlayer
                                 className='react-player'
                                 url="https://www.youtube.com/watch?v=yOV6SDDUJOA"
@@ -68,7 +68,7 @@ function LectorPage() {
                         </div>
                     </div>
                     <div className="second-row">
-                        <div className='video-player'>
+                        <div className='video-player' data-aos="flip-left" data-aos-delay="100">
                             <ReactPlayer
                                 className='react-player'
                                 url="https://www.youtube.com/watch?v=KZ7bG8vXQZY"

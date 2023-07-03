@@ -3,6 +3,7 @@ import ReactPlayer from 'react-player';
 import './styles/moviesPage.scss'
 
 function MoviesPage() {
+
     return (
         <div className="main-page">
             <div className='title-with-description'>
@@ -16,17 +17,16 @@ function MoviesPage() {
             <hr></hr>
             <div className='movies'>
                 <div className='videos'>
-                    <div className='video-player'>
+                    <div className='video-player' data-aos="flip-left">
                         <ReactPlayer
                             className='react-player'
                             url="https://www.youtube.com/watch?v=6B6_XZfv8vM&t"
                             controls={true}
                             width='100%'
                             height='100%'
-
                         />
                     </div>
-                    <div className='video-player'>
+                    <div className='video-player' data-aos="flip-left" >
                         <ReactPlayer
                             className='react-player'
                             url="https://www.youtube.com/watch?v=6JGWdqIQjTc"
@@ -35,7 +35,7 @@ function MoviesPage() {
                             height='100%'
                         />
                     </div>
-                    <div className='video-player'>
+                    <div className='video-player' data-aos="flip-left" >
                         <ReactPlayer
                             className='react-player'
                             url="https://www.youtube.com/watch?v=HQn8GA4j7XI"
@@ -44,7 +44,7 @@ function MoviesPage() {
                             height='100%'
                         />
                     </div>
-                    <div className='video-player'>
+                    <div className='video-player' data-aos="flip-left" >
                         <ReactPlayer
                             className='react-player'
                             url="https://www.youtube.com/watch?v=4lvBYbiH9_Y"
@@ -53,7 +53,7 @@ function MoviesPage() {
                             height='100%'
                         />
                     </div>
-                    <div className='video-player'>
+                    <div className='video-player' data-aos="flip-left" >
                         <ReactPlayer
                             className='react-player'
                             url="https://www.youtube.com/watch?v=f20RglCB49s"
@@ -62,7 +62,7 @@ function MoviesPage() {
                             height='100%'
                         />
                     </div>
-                    <div className='video-player'>
+                    <div className='video-player' data-aos="flip-left" >
                         <ReactPlayer
                             className='react-player'
                             url="https://www.youtube.com/watch?v=yE0uewqSMHE"
@@ -71,7 +71,7 @@ function MoviesPage() {
                             height='100%'
                         />
                     </div>
-                    <div className='video-player'>
+                    <div className='video-player' data-aos="flip-left" >
                         <ReactPlayer
                             className='react-player'
                             url="https://www.youtube.com/watch?v=TFPCquTmTRw"
@@ -80,7 +80,7 @@ function MoviesPage() {
                             height='100%'
                         />
                     </div>
-                    <div className='video-player'>
+                    <div className='video-player' data-aos="flip-left" >
                         <ReactPlayer
                             className='react-player'
                             url="https://www.youtube.com/watch?v=SC8W3dJtR-8&t"
@@ -89,7 +89,7 @@ function MoviesPage() {
                             height='100%'
                         />
                     </div>
-                    <div className='video-player'>
+                    <div className='video-player' data-aos="flip-left" >
                         <ReactPlayer
                             className='react-player'
                             url="https://www.youtube.com/watch?v=TI-432Y9jdU"
@@ -98,7 +98,7 @@ function MoviesPage() {
                             height='100%'
                         />
                     </div>
-                    <div className='video-player'>
+                    <div className='video-player' data-aos="flip-left" >
                         <ReactPlayer
                             className='react-player'
                             url="https://www.youtube.com/watch?v=QtkOmxxp1Xs"
@@ -107,7 +107,7 @@ function MoviesPage() {
                             height='100%'
                         />
                     </div>
-                    <div className='video-player'>
+                    <div className='video-player' data-aos="flip-left" >
                         <ReactPlayer
                             className='react-player'
                             url="https://www.youtube.com/watch?v=knfj0_d50dI"
@@ -116,7 +116,7 @@ function MoviesPage() {
                             height='100%'
                         />
                     </div>
-                    <div className='video-player'>
+                    <div className='video-player' data-aos="flip-left" >
                         <ReactPlayer
                             className='react-player'
                             url="https://www.youtube.com/watch?v=tl_wuhexoDQ"
@@ -125,7 +125,7 @@ function MoviesPage() {
                             height='100%'
                         />
                     </div>
-                    <div className='video-player'>
+                    <div className='video-player' data-aos="flip-left" >
                         <ReactPlayer
                             className='react-player'
                             url="https://www.youtube.com/watch?v=Q3RlQT4GbG4"
@@ -134,7 +134,7 @@ function MoviesPage() {
                             height='100%'
                         />
                     </div>
-                    <div className='video-player'>
+                    <div className='video-player' data-aos="flip-left" >
                         <ReactPlayer
                             className='react-player'
                             url="https://www.youtube.com/watch?v=ZZB0ryAtjs8"
@@ -143,7 +143,7 @@ function MoviesPage() {
                             height='100%'
                         />
                     </div>
-                    <div className='video-player'>
+                    <div className='video-player' data-aos="flip-left" >
                         <ReactPlayer
                             className='react-player'
                             url="https://www.youtube.com/watch?v=Zx0NrCOsDig&t"
@@ -152,7 +152,7 @@ function MoviesPage() {
                             height='100%'
                         />
                     </div>
-                    <div className='video-player'>
+                    <div className='video-player' data-aos="flip-left" >
                         <ReactPlayer
                             className='react-player'
                             url="https://www.youtube.com/watch?v=d0Qg9kfgoJA"

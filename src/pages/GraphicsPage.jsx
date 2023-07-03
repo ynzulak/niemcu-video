@@ -21,22 +21,22 @@ function GraphicsPage() {
             <hr></hr>
             <div className="graphics-content">
                 <div className="graphics">
-                    <div className="graphic">
+                    <div className="graphic" data-aos="fade-up">
                         <img src={muzykaFilmowa} alt='' />
                     </div>
-                    <div className="graphic">
+                    <div className="graphic" data-aos="fade-up" data-aos-delay="200">
                         <img src={muzykaPolska} alt='' />
                     </div>
-                    <div className="graphic">
+                    <div className="graphic" data-aos="fade-up">
                         <img src={muzyka2020} alt='' />
                     </div>
-                    <div className="graphic">
+                    <div className="graphic" data-aos="fade-up">
                         <img src={zyczeniaSanok} alt='' />
                     </div>
-                    <div className="graphic">
+                    <div className="graphic" data-aos="fade-up">
                         <img src={logoWieksze} alt='' />
                     </div>
-                    <div className="graphic">
+                    <div className="graphic" data-aos="fade-up">
                         <img src={logoMniejsze} alt='' />
                     </div>
                 </div>
