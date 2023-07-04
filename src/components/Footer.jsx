@@ -8,8 +8,8 @@ function Footer() {
     return (
         <footer className='footer'>
             <div className='footer-container'>
-                <div className='footer-links'>    
-                    <ul className='icons-list'>                   
+                <div className='footer-links'>
+                    <ul className='icons-list'>
                         <li><a href='https://www.facebook.com/MichalNiemiecVideo'><FontAwesomeIcon icon={faFacebook} /></a></li>
                         <li><a href='https://www.instagram.com/michal_niemiec_video/?hl=pl'><FontAwesomeIcon icon={faInstagram} /></a></li>
                         <li><a href='https://www.tiktok.com/@niemcu_video?lang=pl-PL'><FontAwesomeIcon icon={faTiktok} /></a></li>
@@ -39,10 +39,11 @@ function Footer() {
                     </ul>
                 </div>
                 <div className='copyrights'>
-                    <p>&copy;2023 Maksymilian Kałużny | Wszelkie Prawa Zastrzeżone</p>
+                    <p>&copy;2023 Michał Niemiec | Wszelkie Prawa Zastrzeżone</p>
+                    <p>Strona została stworzona przez Maksymiliana Kałużnego</p>
                 </div>
             </div>
-       </footer>
+        </footer>
     )
 }
 
