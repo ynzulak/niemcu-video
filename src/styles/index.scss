@@ -29,14 +29,7 @@
 body {
   position: relative;
   min-height: 100vh;
-  background-image: linear-gradient(
-    to bottom,
-    #1c1c1c,
-    #202020,
-    #242424,
-    #282828,
-    #2c2c2c
-  );
+  background-image: linear-gradient(to right bottom, #181818, #202020, #282828, #303030, #383838);
   color: var(--font-color-white);
   font-family: "Roboto", sans-serif;
   width: 100%;
