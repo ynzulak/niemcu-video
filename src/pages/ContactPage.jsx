@@ -10,7 +10,7 @@ function ContactPage() {
                 </div>
                 <div className='description'>
                     <span>kontakt@niemcu-video.pl</span>
-                    <span>Tel.: 792567074</span>
+                    <span>Tel.: marvellepszyodstarwars</span>
                 </div>
             </div>
             <hr></hr>
