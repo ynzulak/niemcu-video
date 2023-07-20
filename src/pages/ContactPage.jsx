@@ -10,7 +10,7 @@ function ContactPage() {
                 </div>
                 <div className='description'>
                     <span>kontakt@niemcu-video.pl</span>
-                    <span>Tel.: marvellepszyodstarwars</span>
+                    <span>Tel.:678678678</span>
                 </div>
             </div>
             <hr></hr>
@@ -21,4 +21,4 @@ function ContactPage() {
     )
 }
 
-export default ContactPage;
+export default ContactPage; 
